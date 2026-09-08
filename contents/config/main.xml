@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.freedesktop.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.freedesktop.org/standards/kcfg/1.0
+                          http://www.freedesktop.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="group1Id" type="String">
+            <default>2000020600</default>
+        </entry>
+        <entry name="group1Name" type="String">
+            <default>1ИИС-42</default>
+        </entry>
+        <entry name="group2Id" type="String">
+            <default>2000020599</default>
+        </entry>
+        <entry name="group2Name" type="String">
+            <default>1ИИС-41</default>
+        </entry>
+        <entry name="refreshMinutes" type="Int">
+            <default>60</default>
+        </entry>
+        <entry name="daysAhead" type="Int">
+            <default>8</default>
+        </entry>
+        <entry name="showWeekend" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="pythonPath" type="String">
+            <default>python3</default>
+        </entry>
+        <entry name="localDir" type="String">
+            <default></default>
+        </entry>
+    </group>
+</kcfg>

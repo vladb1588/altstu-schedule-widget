@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Authors": [
+            { "Email": "", "Name": "vlad1" }
+        ],
+        "Category": "Education",
+        "Description": "AltSTU class schedule for two groups (parses altstu.ru/m/s)",
+        "Icon": "view-calendar-timetable",
+        "Id": "com.local.altstu.schedule",
+        "License": "MIT",
+        "Name": "AltSTU Schedule",
+        "Version": "0.1"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
